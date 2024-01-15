@@ -110,7 +110,7 @@ while True:
 
                 elif engine == "ELECTRIC":
                     E = Electric()
-                    print("this Automatic Electric car available in 2 color variant: Green : ")
+                    print("this Automatic Electric car available in 1 color variant: Green : ")
                     while True:
                         color = input("Please select the one color from available variant GREEN : ")
                         color == color.upper()
@@ -128,7 +128,7 @@ while True:
 
                 elif engine == "HYBRID":
                     H = Hybrid()
-                    print("this Automatic Electric car available in 2 color variant: Yellow : ")
+                    print("this Automatic Electric car available in 1 color variant: Yellow : ")
                     while True:
                         color = input("Please select the one color from available variant YELLOW : ")
                         color == color.upper()
